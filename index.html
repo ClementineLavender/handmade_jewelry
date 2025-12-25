@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+     <div class="backdrop">
+      <div class="modal">
+        <h3 class="modal-caption">Connect</h3>
+        <h2 class="modal-title">Order your unique jewelry</h2>
+        <p class="modal-descr">We'd love to hear more details from you!</p>
+      </div>
+      <form class="modal-form" name="reviewForm">
+        <div class="modal-form-field">
+          <label class="modal-form-label" for="user-name">Name*</label>
+          <div class="modal-form-wrapper">
+            <input
+            pattern name="^[a-zA-Z\s\.]{5,28}$"
+            type="text"
+            class="modal-form-input"
+            id="user-name"
+            placeholder="Tony"
+            minlength="3"/>
+          </div>
+        </div>
+         <div class="modal-form-field">
+          <label class="modal-form-label" for="phone">Phone*</label>
+          <div class="modal-form-wrapper">
+            <input
+            pattern phone="^+[0-9\s]{14}$"
+            type="tel"
+            class="modal-form-input"
+            name="Phone*"
+            placeholder="+12345678900"
+            minlength="8"/>
+          </div>
+        </div>
+        <div class="modal-form-field textarea">
+          <label class="modal-form-label" for="user-comment">Describe what you want</label>
+          <textarea
+          pattern textarea=""
+          type="submit"
+          class="modal-form-comment"
+          name="user-comment"
+          id="user-comment"
+          placeholder="Type your message...">
+        </textarea>
+      </div>
+    </div>
+    <button class="btn-submit" type="submit"disabled>Submit</button>
+  </form>
+  <address class="contacts">
+   <ul class="contact-list">
+    <ol class="contacts-item">
+      <svg class="contacts-icon">
+        <use href="">
+        </use>
+      </svg>
+      <h3 class="contacts-name">Email</h3>
+      <a class="contacts-link" href="mailto:info@handmadejewelry.com" target="_blank" rel="noopener noreferer">info@handmadejewelry.com</a>
+    </ol class="contacts-item">
+     <ol class="contacts-item">
+      <svg>
+         <use href="">
+        </use>
+      </svg>
+      <h3 class="contacts-name">Office</h3>
+      <a class="contacts-link" href="https://www.google.com/search?q=76-8+Oakington+Manor+Dr%2C+London%2C+UK&oq=76-8+Oakington+Manor+Dr%2C+London%2C+UK&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBTIKCAIQABiABBiiBDIHCAMQABjvBTIHCAQQABjvBdIBBzU2NmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8" target="_blank" rel="noopener noreferer">76-8 Oakington Manor Dr, London, UK</a>
+    </ol>
+     <ol>
+      <svg>
+         <use href="">
+        </use>
+      </svg>
+      <h3 class="contacts-name">Phone</h3>
+      <a class="contacts-link" href="tel:+1555000-0000" target="_blank" rel="noopener noreferer">+1 (555) 000-0000</a>
+    </ol>
+  </ul>
+  </address>
+</body>
+</html>
+
+
+
+
+
+
+
